@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
+
+ext {
+    compileSdkVersion = 22
+    buildToolsVersion = "22.0.1"
+    minSdkVersion = 9
+    supportLibVersion = '22.2.0'
+    testSupportLibVersion = '0.3'
+    testEspressoVersion = "2.2"
+
+    DEBUG_LOG = "true"
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
